@@ -1,0 +1,16 @@
+zuul.ignored-services: "*"
+zuul.prefix:  /api
+zuul.routes.customerservice: /customer/**
+zuul.routes.orderservice: /order/**
+zuul.routes.productservice: /product/**
+#zuul.routes.authenticationservice: /auth/**
+#zuul.routes.orderstatic.path: /orderstatic/**
+#zuul.routes.orderstatic.url:  http://orderservice-static:8081
+#zuul.routes.orderstatic.serviceId: orderstatic
+#zuul.routes.orderstatic.ribbon.listOfServers: http://orderservice-static1:8081, http://orderservice-static2:8082
+#ribbon.eureka.enabled: false
+zuul.sensitiveHeaders: Cookie,Set-Cookie
+zuul.debug.request: true
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2500
+#hystrix.command.customerservice.execution.isolation.thread.timeoutInMilliseconds: 2
+#customerservice.ribbon.ReadTimeout: 2
