@@ -1,8 +1,8 @@
-zuul.ignored-services: "*"
-zuul.prefix:  /api
-zuul.routes.customerservice: /customer/**
-zuul.routes.orderservice: /order/**
-zuul.routes.productservice: /product/**
+#zuul.ignored-services: "*"
+#zuul.prefix:  /api
+#zuul.routes.customerservice: /customer/**
+#zuul.routes.orderservice: /order/**
+#zuul.routes.productservice: /product/**
 #zuul.routes.authenticationservice: /auth/**
 #zuul.routes.orderstatic.path: /orderstatic/**
 #zuul.routes.orderstatic.url:  http://orderservice-static:8081

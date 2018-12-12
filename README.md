@@ -1,1 +1,1 @@
-Configuration files for micro-nbn services
+Configuration files for micro-blue services
